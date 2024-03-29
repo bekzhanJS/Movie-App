@@ -57,7 +57,7 @@ body {
 .category_list {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 
 .list {
@@ -84,25 +84,9 @@ body {
   gap: 20px;
 }
 
-.img_rating {
-  position: relative;
-}
-
 .img_rating img {
   width: 280px;
   height: 400px;
-}
-
-.content_rating {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 16px;
-  color: #fff;
-  background-color: rgb(53, 54, 54);
-  padding: 7px;
-  border-radius: 50%;
-  border: 1px solid green;
 }
 
 .about_film_name {
@@ -116,4 +100,5 @@ body {
   color: rgb(158, 158, 58);
   margin-top: 5px;
   font-size: 16px;
+  width: 280px;
 }
